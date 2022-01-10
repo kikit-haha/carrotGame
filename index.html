@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>당근을 찾아라!</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <script defer src="./script/main.js"></script>
+  </head>
+  <body>
+    <div class="ground_wrap">
+      <img src="./img/background.png" alt="배경" class="background" />
+      <div class="using_ground"></div>
+    </div>
+
+    <div class="controller">
+      <div class="button control-elem">
+        <i class="far fa-play-circle btn play_btn"></i>
+      </div>
+      <div class="timer control-elem"></div>
+      <div class="count_carrots control-elem">당근 수</div>
+    </div>
+
+    <div class="alert">
+      <div class="restart">
+        <i class="fas fa-redo"></i>
+        <div class="comment">Replay?</div>
+      </div>
+      <div class="status">You Lose</div>
+    </div>
+  </body>
+</html>
